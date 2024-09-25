@@ -1,3 +1,5 @@
+alert("selamat datang di website ini");
+
 const darkModeButton = document.querySelector('.dark-mode .dark-btn');
 const lightModeButton = document.querySelector('.light-mode .light-btn');
 const darkModeDisplay = document.querySelector('.dark-mode');
