@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(254, 157, 20);
+    margin: 0;
+    padding: 20px;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.cart-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid black;
+   
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+i{
+    color: black;
+}
+
+.edit-data, .hapus-data {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.b-button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
