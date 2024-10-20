@@ -1,7 +1,6 @@
 <?php
 require 'koneksi.php';
 
-// Menangani input pencarian
 $search = '';
 if (isset($_GET['search'])) {
     $search = $_GET['search'];
